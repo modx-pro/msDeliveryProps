@@ -1,0 +1,17 @@
+{
+  "name": "alroniks/msdeliveryprops",
+  "description": "Manager for payment properties for MODX miniShop2 e-commerce solution.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Klimchuk",
+      "email": "ivan@klimchuk.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "modx/revolution": "~2.0"
+  }
+}
