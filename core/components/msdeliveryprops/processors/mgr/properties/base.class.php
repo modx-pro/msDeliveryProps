@@ -30,11 +30,11 @@ class DeliveryPropertiesBaseProcessor extends modProcessor
     }
 
     /**
-     * @return mixed
+     * @return array
      */
     protected function getDeliveryProperties()
     {
-        return $this->getDelivery()->get('properties');
+        return $this->getDelivery()->get('properties') ?: [];
     }
 
     /**

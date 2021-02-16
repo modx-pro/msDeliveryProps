@@ -12,7 +12,7 @@ ini_set('date.timezone', 'Europe/Minsk');
 
 define('PKG_NAME', 'msDeliveryProps');
 define('PKG_NAME_LOWER', strtolower(PKG_NAME));
-define('PKG_VERSION', '0.0.1');
+define('PKG_VERSION', '0.0.2');
 define('PKG_RELEASE', 'beta');
 define('PKG_SUPPORTS_PHP', '7.2');
 define('PKG_SUPPORTS_MODX', '2.7');

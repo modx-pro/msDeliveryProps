@@ -1,4 +1,7 @@
 This file shows the changes in recent releases of msDeliveryProps.
 
+0.0.2-beta
+- Fix PHP warning: Invalid argument supplied for foreach()
+
 0.0.1-beta
 - Initial release.
