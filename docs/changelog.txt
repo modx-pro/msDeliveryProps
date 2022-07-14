@@ -1,5 +1,8 @@
 This file shows the changes in recent releases of msDeliveryProps.
 
+0.0.3-beta
+- Fix new miniShop2 handling
+
 0.0.2-beta
 - Fix PHP warning: Invalid argument supplied for foreach()
 

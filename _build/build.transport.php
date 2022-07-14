@@ -12,7 +12,7 @@ ini_set('date.timezone', 'Europe/Minsk');
 
 define('PKG_NAME', 'msDeliveryProps');
 define('PKG_NAME_LOWER', strtolower(PKG_NAME));
-define('PKG_VERSION', '0.0.2');
+define('PKG_VERSION', '0.0.3');
 define('PKG_RELEASE', 'beta');
 define('PKG_SUPPORTS_PHP', '7.2');
 define('PKG_SUPPORTS_MODX', '2.7');
@@ -49,7 +49,7 @@ if (!empty($argv) && $argc > 1) {
     $release = $argv[1];
 }
 
-$directory = $release === 'release' ? $root . '_packages/' : __DIR__ . '/../../core/packages/';
+$directory = $release === 'release' ? $root . '_packages/' : __DIR__ . '/../../../core/packages/';
 $filename = $directory . $signature . '.transport.zip';
 
 /* remove the package if it's already been made */

@@ -7,7 +7,12 @@
 
 // need to load
 if (!class_exists('msDeliveryHandler')) {
-    $path = MODX_CORE_PATH . '/components/minishop2/model/minishop2/msdeliveryhandler.class.php';
+    $path = MODX_CORE_PATH . 'components/minishop2/handlers/msdeliveryhandler.class.php';
+    
+    if (!file_exists($path)) {
+        $path = MODX_CORE_PATH . 'components/minishop2/model/minishop2/msdeliveryhandler.class.php';
+    }
+    
     if (is_readable($path)) {
         require_once $path;
     }
